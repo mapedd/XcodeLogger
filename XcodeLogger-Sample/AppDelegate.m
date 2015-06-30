@@ -1,0 +1,69 @@
+//
+//  AppDelegate.m
+//  XcodeLogger-Sample
+//
+//  Created by Razvan Alin Tanase on 30/06/15.
+//  Copyright (c) 2015 Codebringers Software. All rights reserved.
+//
+
+#import "AppDelegate.h"
+
+#import "XcodeLogger+BuildSchemes.h"
+
+
+@interface AppDelegate ()
+
+@property (weak) IBOutlet NSWindow *window;
+@end
+
+@implementation AppDelegate
+
+- (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    
+    TICK;
+    
+    XLog_NH(@"--------------------------------------XLog--------------------------------------------------");
+    
+    XLog(@"SIMPLE NSLog REPLACEMENT WITH HEADER - RUNS INDEPENDENTLY OF CURRENT SCHEMA");
+    XLog_NH(@"SIMPLE NSLog REPLACEMENT WITHOUT HEADER - RUNS INDEPENDENTLY OF CURRENT SCHEMA");
+    XLog_INFO(@"SIMPLE NSLog REPLACEMENT FOR INFORMATION - RUNS INDEPENDENTLY OF CURRENT SCHEMA");
+    XLog_HIGHLIGHT(@"SIMPLE NSLog REPLACEMENT FOR HIGHLIGHT - RUNS INDEPENDENTLY OF CURRENT SCHEMA");
+    XLog_WARNING(@"SIMPLE NSLog REPLACEMENT FOR WARNINGS - RUNS INDEPENDENTLY OF CURRENT SCHEMA");
+    XLog_ERROR(@"SIMPLE NSLog REPLACEMENT FOR ERRORS - RUNS INDEPENDENTLY OF CURRENT SCHEMA");
+    
+    DLog_NH(@"--------------------------------------DLog--------------------------------------------------");
+
+    DLog(@"LOGGER FOR A DEBUG SCHEMA - RUNS ONLY ON A DEBUG SCHEMA");
+    DLog_NH(@"LOGGER FOR A DEBUG SCHEMA WITHOUT HEADER - RUNS ONLY ON A DEBUG SCHEMA");
+    DLog_INFO(@"LOGGER FOR A DEBUG SCHEMA FOR INFORMATION - RUNS ONLY ON A DEBUG SCHEMA");
+    DLog_HIGHLIGHT(@"LOGGER FOR A DEBUG SCHEMA FOR HIGHLIGHT - RUNS ONLY ON A DEBUG SCHEMA");
+    DLog_WARNING(@"LOGGER FOR A DEBUG SCHEMA FOR WARNINGS - RUNS ONLY ON A DEBUG SCHEMA");
+    DLog_ERROR(@"LOGGER FOR A DEBUG SCHEMA FOR ERRORS - RUNS ONLY ON A DEBUG SCHEMA");
+    
+    DEVLog_NH(@"------------------------------------DEVLog------------------------------------------------");
+
+    DEVLog(@"LOGGER FOR A DEVELOPMENT SCHEMA - RUNS ONLY ON A DEVELOPMENT SCHEMA");
+    DEVLog_NH(@"LOGGER FOR A DEVELOPMENT SCHEMA WITHOUT HEADER - RUNS ONLY ON A DEVELOPMENT SCHEMA");
+    DEVLog_INFO(@"LOGGER FOR A DEVELOPMENT SCHEMA FOR INFORMATION - RUNS ONLY ON A DEVELOPMENT SCHEMA");
+    DEVLog_HIGHLIGHT(@"LOGGER FOR A DEVELOPMENT SCHEMA FOR HIGHLIGHT - RUNS ONLY ON A DEVELOPMENT SCHEMA");
+    DEVLog_WARNING(@"LOGGER FOR A DEVELOPMENT SCHEMA FOR WARNINGS - RUNS ONLY ON A DEVELOPMENT SCHEMA");
+    DEVLog_ERROR(@"LOGGER FOR A DEVELOPMENT SCHEMA FOR ERRORS - RUNS ONLY ON A DEVELOPMENT SCHEMA");
+
+    DDVLog_NH(@"------------------------------------DDVLog------------------------------------------------");
+    
+    DDVLog(@"SHARED LOGGER FOR DEBUG & DEVELOPMENT SCHEMES");
+    DDVLog_NH(@"SHARED LOGGER FOR DEBUG & DEVELOPMENT SCHEMES WITHOUT HEADER");
+    DDVLog_INFO(@"SHARED LOGGER FOR DEBUG & DEVELOPMENT SCHEMES FOR INFORMATION");
+    DDVLog_HIGHLIGHT(@"SHARED LOGGER FOR DEBUG & DEVELOPMENT SCHEMES FOR HIGHLIGHT ");
+    DDVLog_WARNING(@"SHARED LOGGER DEBUG & DEVELOPMENT SCHEMES FOR WARNINGS");
+    DDVLog_ERROR(@"SHARED LOGGER FOR DEBUG & DEVELOPMENT SCHEMES FOR ERRORS");
+    
+    TOCK;
+
+}
+
+- (void)applicationWillTerminate:(NSNotification *)aNotification {
+    // Insert code here to tear down your application
+}
+
+@end

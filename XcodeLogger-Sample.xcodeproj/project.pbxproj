@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5BD71251B42C81D00A784A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD71241B42C81D00A784A5 /* AppDelegate.m */; };
+		E5BD71271B42C81D00A784A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD71261B42C81D00A784A5 /* main.m */; };
+		E5BD71291B42C81D00A784A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5BD71281B42C81D00A784A5 /* Images.xcassets */; };
+		E5BD712C1B42C81D00A784A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5BD712A1B42C81D00A784A5 /* MainMenu.xib */; };
+		E5BD71381B42C81D00A784A5 /* XcodeLogger_SampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD71371B42C81D00A784A5 /* XcodeLogger_SampleTests.m */; };
+		E5BD71491B42CBD700A784A5 /* XcodeLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD71471B42CBD700A784A5 /* XcodeLogger.m */; };
+		E5BD714A1B42CBD700A784A5 /* XcodeLogger+BuildSchemes.m in Sources */ = {isa = PBXBuildFile; fileRef = E5BD71481B42CBD700A784A5 /* XcodeLogger+BuildSchemes.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5BD71321B42C81D00A784A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5BD71161B42C81D00A784A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5BD711D1B42C81D00A784A5;
+			remoteInfo = "XcodeLogger-Sample";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E5BD711E1B42C81D00A784A5 /* XcodeLogger-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "XcodeLogger-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BD71221B42C81D00A784A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BD71231B42C81D00A784A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E5BD71241B42C81D00A784A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E5BD71261B42C81D00A784A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E5BD71281B42C81D00A784A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E5BD712B1B42C81D00A784A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E5BD71311B42C81D00A784A5 /* XcodeLogger-SampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "XcodeLogger-SampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5BD71361B42C81D00A784A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BD71371B42C81D00A784A5 /* XcodeLogger_SampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XcodeLogger_SampleTests.m; sourceTree = "<group>"; };
+		E5BD71451B42CBD700A784A5 /* XcodeLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XcodeLogger.h; path = "Xcode Logger/XcodeLogger.h"; sourceTree = "<group>"; };
+		E5BD71461B42CBD700A784A5 /* XcodeLogger+BuildSchemes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "XcodeLogger+BuildSchemes.h"; path = "Xcode Logger/XcodeLogger+BuildSchemes.h"; sourceTree = "<group>"; };
+		E5BD71471B42CBD700A784A5 /* XcodeLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XcodeLogger.m; path = "Xcode Logger/XcodeLogger.m"; sourceTree = "<group>"; };
+		E5BD71481B42CBD700A784A5 /* XcodeLogger+BuildSchemes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "XcodeLogger+BuildSchemes.m"; path = "Xcode Logger/XcodeLogger+BuildSchemes.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5BD711B1B42C81D00A784A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BD712E1B42C81D00A784A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5BD71151B42C81D00A784A5 = {
+			isa = PBXGroup;
+			children = (
+				E5BD71411B42C87000A784A5 /* Xcode Logger */,
+				E5BD71201B42C81D00A784A5 /* XcodeLogger-Sample */,
+				E5BD71341B42C81D00A784A5 /* XcodeLogger-SampleTests */,
+				E5BD711F1B42C81D00A784A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5BD711F1B42C81D00A784A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD711E1B42C81D00A784A5 /* XcodeLogger-Sample.app */,
+				E5BD71311B42C81D00A784A5 /* XcodeLogger-SampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5BD71201B42C81D00A784A5 /* XcodeLogger-Sample */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD71231B42C81D00A784A5 /* AppDelegate.h */,
+				E5BD71241B42C81D00A784A5 /* AppDelegate.m */,
+				E5BD71211B42C81D00A784A5 /* Supporting Files */,
+			);
+			path = "XcodeLogger-Sample";
+			sourceTree = "<group>";
+		};
+		E5BD71211B42C81D00A784A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD71221B42C81D00A784A5 /* Info.plist */,
+				E5BD71261B42C81D00A784A5 /* main.m */,
+				E5BD71281B42C81D00A784A5 /* Images.xcassets */,
+				E5BD712A1B42C81D00A784A5 /* MainMenu.xib */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5BD71341B42C81D00A784A5 /* XcodeLogger-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD71371B42C81D00A784A5 /* XcodeLogger_SampleTests.m */,
+				E5BD71351B42C81D00A784A5 /* Supporting Files */,
+			);
+			path = "XcodeLogger-SampleTests";
+			sourceTree = "<group>";
+		};
+		E5BD71351B42C81D00A784A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD71361B42C81D00A784A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5BD71411B42C87000A784A5 /* Xcode Logger */ = {
+			isa = PBXGroup;
+			children = (
+				E5BD71451B42CBD700A784A5 /* XcodeLogger.h */,
+				E5BD71471B42CBD700A784A5 /* XcodeLogger.m */,
+				E5BD71461B42CBD700A784A5 /* XcodeLogger+BuildSchemes.h */,
+				E5BD71481B42CBD700A784A5 /* XcodeLogger+BuildSchemes.m */,
+			);
+			name = "Xcode Logger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E5BD711D1B42C81D00A784A5 /* XcodeLogger-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BD713B1B42C81D00A784A5 /* Build configuration list for PBXNativeTarget "XcodeLogger-Sample" */;
+			buildPhases = (
+				E5BD711A1B42C81D00A784A5 /* Sources */,
+				E5BD711B1B42C81D00A784A5 /* Frameworks */,
+				E5BD711C1B42C81D00A784A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XcodeLogger-Sample";
+			productName = "XcodeLogger-Sample";
+			productReference = E5BD711E1B42C81D00A784A5 /* XcodeLogger-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E5BD71301B42C81D00A784A5 /* XcodeLogger-SampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5BD713E1B42C81D00A784A5 /* Build configuration list for PBXNativeTarget "XcodeLogger-SampleTests" */;
+			buildPhases = (
+				E5BD712D1B42C81D00A784A5 /* Sources */,
+				E5BD712E1B42C81D00A784A5 /* Frameworks */,
+				E5BD712F1B42C81D00A784A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E5BD71331B42C81D00A784A5 /* PBXTargetDependency */,
+			);
+			name = "XcodeLogger-SampleTests";
+			productName = "XcodeLogger-SampleTests";
+			productReference = E5BD71311B42C81D00A784A5 /* XcodeLogger-SampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5BD71161B42C81D00A784A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Codebringers Software";
+				TargetAttributes = {
+					E5BD711D1B42C81D00A784A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					E5BD71301B42C81D00A784A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = E5BD711D1B42C81D00A784A5;
+					};
+				};
+			};
+			buildConfigurationList = E5BD71191B42C81D00A784A5 /* Build configuration list for PBXProject "XcodeLogger-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E5BD71151B42C81D00A784A5;
+			productRefGroup = E5BD711F1B42C81D00A784A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5BD711D1B42C81D00A784A5 /* XcodeLogger-Sample */,
+				E5BD71301B42C81D00A784A5 /* XcodeLogger-SampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5BD711C1B42C81D00A784A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BD71291B42C81D00A784A5 /* Images.xcassets in Resources */,
+				E5BD712C1B42C81D00A784A5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BD712F1B42C81D00A784A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5BD711A1B42C81D00A784A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BD71271B42C81D00A784A5 /* main.m in Sources */,
+				E5BD71251B42C81D00A784A5 /* AppDelegate.m in Sources */,
+				E5BD714A1B42CBD700A784A5 /* XcodeLogger+BuildSchemes.m in Sources */,
+				E5BD71491B42CBD700A784A5 /* XcodeLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5BD712D1B42C81D00A784A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BD71381B42C81D00A784A5 /* XcodeLogger_SampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5BD71331B42C81D00A784A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5BD711D1B42C81D00A784A5 /* XcodeLogger-Sample */;
+			targetProxy = E5BD71321B42C81D00A784A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E5BD712A1B42C81D00A784A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E5BD712B1B42C81D00A784A5 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5BD71391B42C81D00A784A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5BD713A1B42C81D00A784A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5BD713C1B42C81D00A784A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XcodeLogger-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5BD713D1B42C81D00A784A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XcodeLogger-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5BD713F1B42C81D00A784A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XcodeLogger-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeLogger-Sample.app/Contents/MacOS/XcodeLogger-Sample";
+			};
+			name = Debug;
+		};
+		E5BD71401B42C81D00A784A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XcodeLogger-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeLogger-Sample.app/Contents/MacOS/XcodeLogger-Sample";
+			};
+			name = Release;
+		};
+		E5BD71421B42C88100A784A5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEVELOPMENT=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		E5BD71431B42C88100A784A5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "XcodeLogger-Sample/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Development;
+		};
+		E5BD71441B42C88100A784A5 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "XcodeLogger-SampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XcodeLogger-Sample.app/Contents/MacOS/XcodeLogger-Sample";
+			};
+			name = Development;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5BD71191B42C81D00A784A5 /* Build configuration list for PBXProject "XcodeLogger-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BD71391B42C81D00A784A5 /* Debug */,
+				E5BD71421B42C88100A784A5 /* Development */,
+				E5BD713A1B42C81D00A784A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5BD713B1B42C81D00A784A5 /* Build configuration list for PBXNativeTarget "XcodeLogger-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BD713C1B42C81D00A784A5 /* Debug */,
+				E5BD71431B42C88100A784A5 /* Development */,
+				E5BD713D1B42C81D00A784A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E5BD713E1B42C81D00A784A5 /* Build configuration list for PBXNativeTarget "XcodeLogger-SampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5BD713F1B42C81D00A784A5 /* Debug */,
+				E5BD71441B42C88100A784A5 /* Development */,
+				E5BD71401B42C81D00A784A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5BD71161B42C81D00A784A5 /* Project object */;
+}
