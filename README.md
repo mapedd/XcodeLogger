@@ -61,27 +61,27 @@ These are the loggers:
 
 2. `DLog` which is meant to run only on a `DEBUG` scheme:
 > **DLog()** 
-**DLog_NH()**
-**DLog_INFO()**
-**DLog_HIGHLIGHT()**
-**DLog_WARNING()**
-**DLog_ERROR()**
+>**DLog_NH()**
+>**DLog_INFO()**
+>**DLog_HIGHLIGHT()**
+>**DLog_WARNING()**
+>**DLog_ERROR()**
 
 3. `DEVLog` which is meant to run only on a `DEVELOPMENT` scheme:
 > **DEVLog()** 
-**DEVLog_NH()**
-**DEVLog_INFO()**
-**DEVLog_HIGHLIGHT()**
-**DEVLog_WARNING()**
-**DEVLog_ERROR()**
+>**DEVLog_NH()**
+>**DEVLog_INFO()**
+>**DEVLog_HIGHLIGHT()**
+>**DEVLog_WARNING()**
+>**DEVLog_ERROR()**
 
 4. `DDVLog` which is meant to run only on both `DEBUG` and `DEVELOPMENT` schemes:
 > **DDVLog()** 
-**DDVLog_NH()**
-**DDVLog_INFO()**
-**DDVLog_HIGHLIGHT()**
-**DDVLog_WARNING()**
-**DDVLog_ERROR()**
+>**DDVLog_NH()**
+>**DDVLog_INFO()**
+>**DDVLog_HIGHLIGHT()**
+>**DDVLog_WARNING()**
+>**DDVLog_ERROR()**
 
 The info headers contain the following informations (in order):
 
