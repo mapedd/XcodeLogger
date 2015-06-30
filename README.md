@@ -51,41 +51,45 @@ After you've done that you simply call the `macros` where you need them as you w
 
 These are the loggers:
 
-1. `NSLog`'s replacement `XLog` which runs independently from the running scheme:
-> **XLog()** - a simple logger with an information header.
-**XLog_NH()** - a simple logger without a header.
-**XLog_INFO()** - a general purpose information logger.
-**XLog_HIGHLIGHT()** - a general purpose information and highlight logger.
-**XLog_WARNING()** - a logger for special situations like warnings.
-**XLog_ERROR** - a logger for errors.
+> `NSLog`'s replacement `XLog` which runs independently from the running scheme:
 
-2. `DLog` which is meant to run only on a `DEBUG` scheme:
-> **DLog()** 
->**DLog_NH()**
->**DLog_INFO()**
->**DLog_HIGHLIGHT()**
->**DLog_WARNING()**
->**DLog_ERROR()**
+* **XLog()** - a simple logger with an information header.
+* **XLog_NH()** - a simple logger without a header.
+* **XLog_INFO()** - a general purpose information logger.
+* **XLog_HIGHLIGHT()** - a general purpose information and highlight logger.
+* **XLog_WARNING()** - a logger for special situations like warnings.
+* **XLog_ERROR** - a logger for errors.
 
-3. `DEVLog` which is meant to run only on a `DEVELOPMENT` scheme:
-> **DEVLog()** 
->**DEVLog_NH()**
->**DEVLog_INFO()**
->**DEVLog_HIGHLIGHT()**
->**DEVLog_WARNING()**
->**DEVLog_ERROR()**
+>`DLog` which is meant to run only on a `DEBUG` scheme:
 
-4. `DDVLog` which is meant to run only on both `DEBUG` and `DEVELOPMENT` schemes:
-> **DDVLog()** 
->**DDVLog_NH()**
->**DDVLog_INFO()**
->**DDVLog_HIGHLIGHT()**
->**DDVLog_WARNING()**
->**DDVLog_ERROR()**
+* **DLog()** 
+* **DLog_NH()**
+* **DLog_INFO()**
+* **DLog_HIGHLIGHT()**
+* **DLog_WARNING()**
+* **DLog_ERROR()**
 
-The info headers contain the following informations (in order):
+> `DEVLog` which is meant to run only on a `DEVELOPMENT` scheme:
 
-( _timestamp_ )=> [> _memory address of self_ <]: _file name_ :[ _line number_ ]:[> _the method which called the logger_ <]
+* **DEVLog()** 
+* **DEVLog_NH()**
+* **DEVLog_INFO()**
+* **DEVLog_HIGHLIGHT()**
+* **DEVLog_WARNING()**
+* **DEVLog_ERROR()**
+
+> `DDVLog` which is meant to run only on both `DEBUG` and `DEVELOPMENT` schemes:
+
+* **DDVLog()** 
+* **DDVLog_NH()**
+* **DDVLog_INFO()**
+* **DDVLog_HIGHLIGHT()**
+* **DDVLog_WARNING()**
+* **DDVLog_ERROR()**
+
+> The info headers contain the following informations (in order):
+
+{_logger info_} ( _timestamp_ )=> [> _memory address of self_ <]: _file name_ :[ _line number_ ]:[> _the method which called the logger_ <]**
 
 ----
 
